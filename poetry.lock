@@ -1,0 +1,21 @@
+[[package]]
+name = "svg-path"
+version = "6.3"
+description = "SVG path objects and parser"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+test = ["Pillow", "black", "check-manifest", "flake8", "pyroma", "pytest", "pytest-cov", "zest.releaser[recommended]"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "c4bfbcc16236b8347f2446770157b978bbb5f3ce0ac6179752f9ec1363f88dcd"
+
+[metadata.files]
+svg-path = [
+    {file = "svg.path-6.3-py2.py3-none-any.whl", hash = "sha256:4bd4747679b527f8db9868e1623bee9f416540b658285d903885768d8a427e5a"},
+    {file = "svg.path-6.3.tar.gz", hash = "sha256:e937740a316a7fec86acd217ab6226e112f51328078524126bb7ea9dbe7b1ade"},
+]
